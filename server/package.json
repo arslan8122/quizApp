@@ -1,0 +1,24 @@
+{
+  "name": "quizbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.5.1",
+    "nodemon": "^2.0.19",
+    "react-router-dom": "^6.3.0",
+    "supertest": "^6.2.4",
+    "sweetalert2": "^11.4.24"
+  }
+}
